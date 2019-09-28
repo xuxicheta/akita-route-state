@@ -1,6 +1,6 @@
 {
   "name": "akita-route-state",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Anton Shvets",
     "email": "antshvets@gmail.com"
@@ -12,7 +12,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "ng build --project akita-route-state && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuxicheta/akita-route-state"
   },
   "private": false,
   "dependencies": {
