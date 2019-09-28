@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "akita-route-state": [
+        "dist/akita-route-state"
+      ],
+      "akita-route-state/*": [
+        "dist/akita-route-state/*"
+      ]
+    }
   }
 }
